@@ -27,7 +27,7 @@ await discordRest.post(Routes.channelMessages(DISCORD_RULES_CHANNEL_ID), {
           `
 ARK: The Survival of the Fittest is a Multiplayer Online Survival Arena (MOSA) game that pits many combatants against one another in the struggle for survival in a harsh, changing environment packed with deadly creatures, and are ultimately pushed into an epic final showdown where only one "Tribe" will make it out alive.
 
-This is your destination to discuss all things SOTF, stay up to date with the latest news, and find other players to play with and most importantly, have fun!
+This is your destination to discuss all things about TSOTF, stay up to date with the latest news, and find other players to play with and most importantly, have fun!
 `
         )
         .setFields(
@@ -88,7 +88,7 @@ The following documents are also strictly enforced:
         }),
       new EmbedBuilder()
         .setColor([220, 148, 22])
-        .setDescription(bold(':warning: To access the community discussion channels, after reading and agreeing to the rules, click on the button below to receive the Survivor role.'))
+        .setDescription(bold(':warning: To access the community channels, after reading and agreeing to the rules, click on the button below to receive the Survivor role.'))
     ],
     components: [
       new ActionRowBuilder().addComponents(
