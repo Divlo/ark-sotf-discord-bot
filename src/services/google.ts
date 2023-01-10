@@ -17,7 +17,7 @@ export const getYouTubeSubscriberCount = async (account: ConnectedAccount): Prom
     throw new Error('No YouTube channels found')
   }
   const channel = channels.data.items[0]
-  if (channel.statistics == null) {
+  if (channel?.statistics == null) {
     throw new Error('No YouTube channel statistics found')
   }
   const { subscriberCount } = channel.statistics
